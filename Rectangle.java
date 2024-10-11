@@ -64,10 +64,14 @@ public class Rectangle
     {
         Rectangle r1 = new Rectangle(5,4);
         Rectangle r2 = new Rectangle(5,4);
-        Rectangle r3 = new Rectangle(6,4);
+        Rectangle r3 = new Rectangle(6,7);
+        Rectangle r4 = new Rectangle(2,10);
         System.out.println(r1.equals(r3));
-        System.out.println(r2.isSquare);
-       
+        System.out.println(r3.area());
+        System.out.println(r4.perimeter());
+
+
+
     }
 
 
